@@ -13,6 +13,26 @@
     <base target="_blank" />
     <meta name="author" content="benson" />
     <title>熊貓資訊網</title>
+    <!-- page icon -->
+    <link rel="shortcut icon" href="./pandaIcon.png" />
+    <link rel="bookmark" href="./pandaIcon.png" />
+    <link rel="stylesheet" href="./demo.css" />
+    <style>
+      table,
+      th,
+      td {
+        border-collapse: collapse;
+        border: 1px solid black;
+      }
+      th,
+      td {
+        padding: 0.25rem;
+      }
+
+      h1 {
+        color: green;
+      }
+    </style>
   </head>
   <body>
     <h1 style="color: blue">保護貓熊</h1>
@@ -32,8 +52,8 @@
       截至2004年，一個為期4年的《全國第三次大貓熊調查報告》統計指出野外大貓熊總數約為1596隻，較1985年的1114隻為多。其中僅約有273隻野生秦嶺大貓熊，僅佔全國大貓熊總數的17％。
       2016年9月，隨著貓熊數量持續增加，國際自然保護聯盟在《紅色名錄》將其保護狀態從瀕危調整為易危。
     </p>
-
-    <h1>相關連結</h1>
+    <hr />
+    <h1>相關連結&#9837;</h1>
     <a
       href="https://www.azotaiwan.com/_dl_rC5CFd3nVq/_Mediafire_T0jpw7O3xD/DeskPinsPortable_1.30_azo.exe_mediafire.htm"
       >deskpins</a
@@ -43,7 +63,7 @@
 
     <h1>圖片</h1>
     <img src="https://fakeimg.pl/500x200/" alt="picture" />
-
+    <img src="https://fakeimg.pl/550x350/" alt="picture" />
     <h1>ul ol操作</h1>
     <ul>
       <li>test01</li>
@@ -55,21 +75,28 @@
     </ol>
 
     <table>
-      <tr>
-        <th>h1</th>
-        <th>h2</th>
-        <th>h3</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-      </tr>
+      <thead>
+        <tr>
+          <th colspan="3">合併儲存格</th>
+        </tr>
+        <tr>
+          <th>h1</th>
+          <th>h2</th>
+          <th>h3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
